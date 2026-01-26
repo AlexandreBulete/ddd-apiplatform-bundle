@@ -1,0 +1,31 @@
+{
+    "name": "alexandrebulete/ddd-apiplatform-bundle",
+    "description": "Symfony Bundle for DDD API Platform Bridge - Service wiring and configuration",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Bulete"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "alexandrebulete/ddd-apiplatform-bridge": "^1.0",
+        "symfony/framework-bundle": "^7.0",
+        "symfony/config": "^7.0",
+        "symfony/dependency-injection": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexandreBulete\\DddApiPlatformBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlexandreBulete\\DddApiPlatformBundle\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
